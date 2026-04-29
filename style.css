@@ -722,7 +722,7 @@ img { display: block; max-width: 100%; }
   .section-title { font-size: clamp(1.6rem, 6vw, 2rem); }
 
   /* About */
-  .about-grid { gap: 2rem; }
+  .about-grid { grid-template-columns: 1fr; gap: 2rem; }
   .code-block pre { font-size: .75rem; padding: 1rem; }
   .about-text { font-size: .92rem; }
   .about-item { padding: .7rem .85rem; }
@@ -732,7 +732,7 @@ img { display: block; max-width: 100%; }
   /* Skills & Projects – already fluid from base auto-fill/minmax */
 
   .contact-form { padding: 1.25rem; }
-  .contact-grid { gap: 2rem; }
+  .contact-grid { grid-template-columns: 1fr; gap: 2rem; }
 
   /* Footer */
   .footer-inner {
